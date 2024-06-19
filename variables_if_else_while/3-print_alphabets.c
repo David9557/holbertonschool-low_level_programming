@@ -1,29 +1,24 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabet in lowercase.
  *
- * Description: Prints the alphabet in lowercase followed by a new line.
- * Only the putchar function is used, and only twice in the code.
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
 int main(void)
-
 {
-	char ch;
+	char letter;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	
-	for (ch = 'A'; ch <= 'Z'; ch++)
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
-	{
-		putchar(ch++)
-	}
 
 	return (0);
 }
-
-
