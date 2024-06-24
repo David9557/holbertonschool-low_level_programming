@@ -1,8 +1,9 @@
 #include "main.h"
 
 /*
- * _isdgit - 
- * Return: return 0 si ce n'est pas un chiffre compris entre 0 et 9 et 1 si sa l'est
+ * _isdgit -
+ * Return: return 0 si ce n'est pas un chiffre compris entre 0 et 9
+ * et 1 si sa l'est.
  */
 
 int _isdigit(int c)
